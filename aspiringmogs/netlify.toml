@@ -1,8 +1,8 @@
 [build]
-publish = "public"  // default hugo build folder
-command = "hugo" // hugo build command
+publish = "public"
+command = "hugo --gc -b $URL"
 
 [context.production.environment]
-HUGO_VERSION = "0.69"
+HUGO_VERSION = "0.69.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
