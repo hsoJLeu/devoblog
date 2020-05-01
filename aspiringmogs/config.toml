@@ -2,3 +2,20 @@ baseURL = "https://a-mogs.netlify.app"
 languageCode = "en-us"
 title = "Elisha's Tomb"
 theme = "diary"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/submissions"
+name = "Submissions"
+weight = 4
