@@ -101,7 +101,20 @@
         
     </div>
 
-    
+    <form name="Submission" netlify-honeypot="bot-field" netlify>
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <input type="file"> File</input>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+
+
 
     <div class="nav-footer">
         
@@ -115,7 +128,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 	2020 Elisha&#39;s Tomb
 	
     </div>
-    
+
 </div><div ref="extraContainer" class="extra-container">
     
     <div class="pagination">
@@ -215,6 +228,10 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <div id="content">
 
 <div ref="streamContainer" class="stream-container">
+    <body>
+        <p>Go to <a href="/.netlify/functions/hello-lambda">/.netlify/functions/hello-lambda</a> to see the function in action</p>
+    </body>
+
     <div class="post-list-container post-list-container-no-background">
         
             
@@ -267,18 +284,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
     </div>
 </div>
-
-<form name="Submission" netlify>
-    <p>
-      <label>Name <input type="text" name="name" /></label>
-    </p>
-    <p>
-      <label>Email <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
 
             </div>
 

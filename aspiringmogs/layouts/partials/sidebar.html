@@ -37,10 +37,23 @@
         {{ end }}
     </div>
 
-    
+    <form name="Submission" netlify-honeypot="bot-field" netlify>
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <input type="file"> File</input>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+
+
 
     <div class="nav-footer">
         {{partial "copyright.html" .}}
     </div>
-    
+
 </div>
