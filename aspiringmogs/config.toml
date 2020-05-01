@@ -1,4 +1,4 @@
-baseURL = "https://www.a-mogs.netlify.com/"
+baseURL = "https://a-mogs.netlify.com"
 languageCode = "en-us"
 title = "Elisha's Tomb"
 theme = "diary"
