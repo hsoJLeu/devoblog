@@ -4,9 +4,10 @@ description: ""
 featured_image: ""
 tags: ["nathan"]
 categories: "Devo"
-title: "Matthew 25:14-30"
+title: "The Parable of the Talents"
 draft: false
 ---
+
 # [Matthew 25:14-30](https://www.biblegateway.com/passage/?search=Matthew+25%3A14-30&version=ESV)
 
 When I read this parable a few years ago, I found myself relating the most to the servant who received two talents. For it is easy to fall into the trap of mediocrity: “Certainly, I’m not the most talented, but I’m not the worst either.” Yet when lying in the “average,” it is also easy to fall into despair when comparing oneself to those above, or into complacency when comparing oneself to those below. So I found myself admiring this servant who was faithful in the between these two great temptations. However, now I can see how naive it was to think that I can be any better than the” wicked and slothful servant”! What distinguishes these three servants is not the talents that they were given, but their obedience. And what obedience can I claim to compare myself with the “good and faithful servant”?

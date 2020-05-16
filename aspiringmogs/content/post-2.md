@@ -4,7 +4,7 @@ description: ""
 featured_image: ""
 tags: ["nathan"]
 categories: "Devo"
-title: "Matthew 19:16-30"
+title: "The Rich Young and Man"
 draft: false
 ---
 
