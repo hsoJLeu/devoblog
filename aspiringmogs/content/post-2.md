@@ -1,8 +1,8 @@
 ---
-date: 2020-04-30T10:58:08-04:00
+date: 2020-04-30T10:58:08-06:00
 description: ""
 featured_image: ""
-tags: ["nathan"]
+tags: ["Nathan"]
 categories: "Devo"
 title: "The Rich Young and Man"
 draft: false
