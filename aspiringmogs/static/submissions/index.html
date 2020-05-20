@@ -36,14 +36,16 @@
               </button>
             </div>
             <div class="modal-body">
-                <form name="Submission" method="POST" netlify-honeypot="bot-field" data-netlify="true" >
-                    <input type="file" class="">
-                    <button type="submit" class="btn btn-primary" data-netlify-recaptcha="true" >Send</button>
+                <form name="Submission" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <label >Verse of the week?</label>
+                    <input type="text" name="name" id="name" />
+                    <input type="file" id="file" name="file">
+                    <button type="submit" class="btn btn-primary" data-netlify-recaptcha="true" >Submit</button>
               </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-primary" method="POST" netlify-honeypot="bot-field" data-netlify="true">Submit</button>
+              <!-- <button type="submit" class="btn btn-primary" method="POST" netlify-honeypot="bot-field" data-netlify="true">Submit</button> -->
             </div>
           </div>
         </div>
