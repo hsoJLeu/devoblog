@@ -7,13 +7,22 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
   </head>
+  <style>
+    body {
+      background-image: url('/images/clouds.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    .container {
+        padding-top: 50px;
+    }
+    </style>
  <body>
-     <div div class="item active" style="background-image: url('images/clouds.jpg');">
-     </div>
+     <!-- <div style="background-image: url('clouds.jpg');"></div> -->
       <!-- Button trigger modal -->
-      <div class="container" >
+      <div class="container"  >
         <h4 class="modal-title" id="exampleModalLabel">
             <i>
               "I write to discover what I know."
@@ -24,6 +33,7 @@
                 Submissions
             </button>
      </div>
+
 
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -40,11 +50,11 @@
                     <p>
                         <label> Verse of the week?: <input type="text" name="verse" /></label>
                     </p>
-                    <div data-netlify-recaptcha="true"></div>
                     <p>
                         <input type="file" id="file" name="file">
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </p>
+                    <div data-netlify-recaptcha="true"></div>
               </form>
             </div>
             <div class="modal-footer">
@@ -54,6 +64,7 @@
           </div>
         </div>
       </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
