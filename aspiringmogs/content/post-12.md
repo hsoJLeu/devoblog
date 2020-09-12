@@ -4,7 +4,7 @@ description: ""
 featured_image: ""
 tags: ["Brandon"]
 categories: "Devo"
-title: "Endless Parise"
+title: "Endless Praise"
 draft: false
 ---
 
