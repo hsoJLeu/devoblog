@@ -16,7 +16,10 @@
       background-size: 100% 100%;
     }
     .container {
-        padding-top: 50px;
+        padding-top: 400px;
+    }
+    .button1 {
+      margin-top: 20px;
     }
     </style>
  <body>
@@ -25,11 +28,11 @@
       <div class="container"  >
         <h4 class="modal-title" id="exampleModalLabel">
             <i>
-              "I write to discover what I know."
+              "For when I am powerless, it is then that I am strong"
             </br>
-              --Flannery O'Connor</i>
-            </h4>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              - Paul the Apostle</i>
+        </h4>
+            <button type="button" class="button1 btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                 Submissions
             </button>
      </div>
@@ -48,7 +51,7 @@
             <div class="modal-body">
                 <form name="submissions" method="POST" data-netlify-recaptcha="true" data-netlify="true" >
                     <p>
-                        <label> Name?: <input type="text" name="verse" /></label>
+                        <label> Your name: <input type="text" name="name" /></label>
                     </p>
                     <p>
                         <input type="file" id="file" name="file">
